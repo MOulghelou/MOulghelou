@@ -2,50 +2,88 @@
 
 ## About Me
 
-I am **Dr. Mourad Oulghelou**, a postdoctoral researcher at **Sorbonne University**, where I focus on cutting-edge research that bridges **fluid mechanics**, **machine learning**, and **reduced-order modeling**. My journey in applied mathematics has led me to develop new methods for **real-time flow control** and **data-driven turbulence modeling**, aiming to address computational challenges in modern engineering applications.
+I am **Dr. Mourad Oulghelou**, a postdoctoral researcher at **Sorbonne University**, where I work at the intersection of **fluid mechanics**, **data-driven modeling**, and **machine learning**. My research focuses on developing **reduced-order models (ROMs)** and leveraging **machine learning** techniques to improve traditional fluid dynamics simulations, specifically for **turbulence modeling**.
 
-My work centers on creating efficient, high-fidelity models for complex fluid dynamics problems by integrating both classical and data-driven approaches. I specialize in developing **reduced-order models (ROMs)** using manifold-based interpolation and projection techniques, and recently, I have been working on applying **machine learning** to improve **turbulence closure models** for **Reynolds-Averaged Navier-Stokes (RANS)** simulations.
+I specialize in the creation and application of **manifold-based interpolation techniques**, from **projection-based ROMs** to **data-driven model reduction approaches**. I have developed innovative methods, including the **GILD (Geometric Interpolation of Latent Dynamics)** approach, and I am currently focusing on improving **Reynolds-Averaged Navier-Stokes (RANS)** simulations using machine learning to create hybrid models that improve turbulence closure predictions.
 
-## Research Overview
+---
 
-My research has evolved from classical projection-based ROMs to purely data-driven methods, focusing on integrating **manifold interpolation**, **data assimilation**, and **machine learning**. Below are the main areas of my research contributions:
+## Research Timeline and Key Contributions
 
-### 1. **Parametric Projection-Based ROMs for Real-Time Flow Control**
-During my Ph.D., I developed **projection-based reduced-order models** (ROMs) to achieve real-time, parametric flow control. I used **Proper Orthogonal Decomposition (POD)** bases, interpolating them on the **Grassmann manifold** to efficiently represent parametric fluid flows. Additionally, I explored the **Proper Generalized Decomposition (PGD)** to handle high-dimensional problems with an adaptive and efficient basis construction.
+My academic career has evolved through various phases, with each step contributing to advancements in **reduced-order modeling** and **data-driven methods** for **fluid mechanics**. Below is a timeline of my major research contributions:
 
-- **Potential Visualization**: An animated graphical representation of a parametric flow control system using ROMs. This can show the interpolation process of POD bases on a Grassmann manifold, highlighting real-time optimization of flow control.
-- **Suggested Placement**: On the **Research** page, under the section describing your Ph.D. work.
+### 1. **Ph.D. Research: Real-Time Flow Control via Projection-Based ROMs**
+   - **Period**: 2014 – 2018, La Rochelle University
+   - **Focus**: Developing **projection-based ROMs** for **parametric flow control** in real-time.
+   - **Key Contributions**: 
+     - Utilized **Proper Orthogonal Decomposition (POD)** bases interpolated on the **Grassmann manifold** for efficient flow control.
+     - Explored **Proper Generalized Decomposition (PGD)** to construct adaptable basis functions for high-dimensional fluid flows.
+     - Achieved real-time performance for **optimal flow control** by reducing the computational complexity of parametric simulations.
 
-### 2. **Advances in Manifold-Based Interpolation in the Quotient Manifold**
-In my first postdoctoral position, I worked on developing a new method for **interpolation in quotient manifolds**, pushing the boundaries of projection-based reduced-order models. This approach improved the efficiency and robustness of reduced-order models in complex parametric settings, especially for problems in fluid dynamics where computational costs need to be minimized without compromising accuracy.
+   - **Suggested Visual Element**: 
+     - **Animation** of **POD basis interpolation** on the Grassmann manifold, demonstrating how real-time control is achieved through reduced-order modeling.
+     - **Timeline placement**: Highlighted as the starting point of your academic journey.
 
-- **Potential Visualization**: A dynamic 3D model of a quotient manifold with animated paths showing interpolation processes between parametric solutions.
-- **Suggested Placement**: On the **Research** page, within the postdoctoral research section to demonstrate your contribution to manifold interpolation techniques.
+---
 
-### 3. **The GILD Approach: Data-Driven Model Reduction**
-After advancing projection-based models, my research shifted towards a purely data-driven paradigm. I developed the **GILD (Geometric Interpolation of Latent Dynamics)** approach, which bypasses traditional Galerkin projections by leveraging **data assimilation** and interpolation in manifolds. GILD combines data from high-fidelity simulations and low-dimensional representations to build highly efficient reduced-order models without the need for predefined projection operators.
+### 2. **Postdoctoral Research 1: Advancements in Manifold Interpolation for ROMs**
+   - **Period**: 2018 – 2020, La Rochelle University
+   - **Focus**: Developing a new approach for **interpolation in quotient manifolds**, extending the utility of projection-based ROMs.
+   - **Key Contributions**:
+     - Advanced interpolation methods to improve the robustness and efficiency of ROMs, particularly in complex parametric spaces.
+     - Designed models that retain accuracy in scenarios where traditional ROM techniques struggle due to parameter variability.
 
-- **Potential Visualization**: An interactive or animated diagram illustrating how the GILD approach works, showing how data points are interpolated on a manifold and assimilated to create a reduced-order model.
-- **Suggested Placement**: On the **Research** page, under the "Data-Driven Model Reduction" section, with a focus on the innovative aspects of the GILD approach.
+   - **Suggested Visual Element**: 
+     - **3D animated manifold** showing the evolution of interpolation between parametric solutions in the quotient manifold.
+     - **Timeline placement**: Positioned as the second major breakthrough in your research career, following the Ph.D. work.
 
-### 4. **Current Research: Machine Learning for Turbulence Closure Models**
-Currently, as a postdoctoral researcher at **Sorbonne University**, I am working on the integration of **machine learning** into traditional **RANS models** for turbulence closure. Our project aims to develop hybrid models by **blending spatially expert models** to improve the accuracy of RANS simulations. This research addresses one of the biggest challenges in computational fluid dynamics: developing accurate turbulence models that can generalize across different flow conditions while maintaining computational efficiency.
+---
 
-- **Potential Visualization**: A side-by-side comparison of traditional RANS solutions and machine-learning-enhanced closure models. This could be a cool animation where the blended models are visually overlaid to show improvements in accuracy.
-- **Suggested Placement**: This could be highlighted on the **Home** page with an introductory animation to immediately draw attention to your cutting-edge work on turbulence modeling.
+### 3. **Postdoctoral Research 2: The GILD Approach for Data-Driven Model Reduction**
+   - **Period**: 2020 – 2023, ENSAM ParisTech
+   - **Focus**: Developing the **GILD (Geometric Interpolation of Latent Dynamics)** approach, a data-driven method that bypasses traditional Galerkin projections.
+   - **Key Contributions**:
+     - Created a new paradigm in ROMs by combining **data assimilation** with **manifold interpolation**, producing a purely data-driven approach.
+     - Demonstrated that **GILD** can capture the essential dynamics of complex systems without requiring projection-based methods, allowing for efficient model reduction in nonlinear systems.
+
+   - **Suggested Visual Element**:
+     - An **interactive diagram** or **animated flowchart** illustrating the data-driven interpolation process used in the GILD method, showing how data is assimilated and used to construct reduced models.
+     - **Timeline placement**: Positioned as a significant milestone that transitions from projection-based to data-driven methods.
+
+---
+
+### 4. **Current Research: Machine Learning for Turbulence Closure in RANS Models**
+   - **Period**: 2023 – Present, Sorbonne University
+   - **Focus**: Applying **machine learning** to improve **turbulence closure models** in **Reynolds-Averaged Navier-Stokes (RANS)** simulations.
+   - **Key Contributions**:
+     - Developing hybrid models that combine machine learning with traditional turbulence closure models, focusing on spatial blending of expert models.
+     - The goal is to enhance the predictive capabilities of RANS models, ensuring more accurate flow simulations across various flow regimes.
+
+   - **Suggested Visual Element**:
+     - A **side-by-side animation** comparing traditional RANS results with machine-learning-enhanced closure models, showing improvements in flow prediction accuracy.
+     - **Timeline placement**: Featured as the latest phase of your research, showcasing your current work in bridging machine learning with turbulence modeling.
 
 ---
 
 ## Key Research Contributions
 
-- **Projection-Based ROMs**: Developed parametric ROMs for real-time flow control using interpolation on **Grassmann manifolds** and the **PGD** method.
-- **Quotient Manifold Interpolation**: Created advanced manifold interpolation techniques for improving ROMs during my first postdoc.
-- **GILD Approach**: Developed the **GILD** method, a purely data-driven, non-intrusive approach to model reduction.
-- **Machine Learning for RANS Models**: Currently working on integrating machine learning into turbulence modeling, focusing on developing blended spatial models for **RANS simulations**.
+- **Projection-Based Reduced-Order Models**:
+  - Developed **parametric ROMs** for **real-time flow control** using **POD** and **Grassmann manifold interpolation**.
+  
+- **Interpolation in Quotient Manifolds**:
+  - Created a novel method for **manifold-based interpolation**, improving the robustness of ROMs in parametric simulations.
+  
+- **GILD Approach**:
+  - Developed the **Geometric Interpolation of Latent Dynamics (GILD)** method, a purely **data-driven** approach to model reduction without the need for Galerkin projections.
+  
+- **Machine Learning for Turbulence Closure**:
+  - Currently working on integrating machine learning with traditional **RANS models** to develop **blended spatial models** that improve turbulence prediction.
+
+---
 
 ## Publications
 
-I have authored several peer-reviewed journal articles that contribute to the fields of **fluid dynamics**, **reduced-order modeling**, and **machine learning**. Some of my key publications include:
+Here are some of my recent publications, showcasing my contributions to fluid mechanics, reduced-order modeling, and machine learning:
 
 1. **M. Oulghelou, A. Ammar, R. Ayoub**. _"Greedy identification of latent dynamics from parametric flow data"_, **Computer Methods in Applied Mechanics**, 2024. DOI: [10.1016/j.cma.2024.117332](https://doi.org/10.1016/j.cma.2024.117332).
 
@@ -53,33 +91,26 @@ I have authored several peer-reviewed journal articles that contribute to the fi
 
 3. **M. Oulghelou, C. Allery**. _"Non-intrusive method for parametric model order reduction using a bi-calibrated interpolation on the Grassmann manifold"_, **Journal of Computational Physics**, 2020. DOI: [10.1016/j.jcp.2020.109924](https://doi.org/10.1016/j.jcp.2020.109924).
 
-A complete list of my publications, with abstracts and links to the full papers, is available on the **Publications** page.
-
----
-
-## Curriculum Vitae (CV)
-
-A full version of my CV is available for download on the **CV** page. Here, you will find detailed information about my academic background, research experience, and teaching roles. My CV highlights:
-
-- **Ph.D. in Fluid Mechanics**, La Rochelle University, with specialization in projection-based ROMs for parametric flow control.
-- **Postdoctoral Researcher** at **Sorbonne University**, focusing on machine-learning-assisted turbulence closure models.
-- **Experience as Assistant Professor** at ENSAM ParisTech, where I combined teaching with research on ROMs and differential manifolds.
+You can find a full list of my publications, including abstracts and DOI links, on the **Publications** page.
 
 ---
 
 ## Collaborate With Me
 
-I am always open to academic collaborations and opportunities to work on innovative projects. If you are interested in my work or would like to discuss potential research collaborations, feel free to contact me:
+I am always open to research collaborations, academic partnerships, or any discussions around **fluid mechanics**, **model reduction**, or **machine learning**. If you are interested in my work or would like to explore potential collaborations, please feel free to reach out:
 
 - **Email**: [mourad.oulghelou@sorbonne-universite.fr](mailto:mourad.oulghelou@sorbonne-universite.fr)
 - **LinkedIn**: [Mourad Oulghelou](https://www.linkedin.com/in/mourad-oulghelou)
 
 ---
 
-## Visual and Interactive Enhancements
+## Dynamic Visual Enhancements
 
-- **3D Manifold Interpolations**: Show visual animations of manifold-based interpolations in real-time.
-- **Comparison Animations**: Use animations to demonstrate the improvements machine learning brings to traditional RANS models.
-- **Interactive Research Timelines**: An interactive timeline can show your progression from projection-based methods to data-driven models and machine learning.
+To enhance the user experience, this website will feature the following visual and interactive elements:
 
-This website is built using **GitHub Pages** with **Jekyll**. It features dynamic visualizations and interactive elements to showcase my research on **reduced-order modeling**, **data-driven approaches**, and **machine learning** applications in **fluid dynamics**.
+- **3D animations** showcasing **manifold interpolation** techniques.
+- **Comparison animations** demonstrating the improvements made by **machine-learning-enhanced turbulence models** over traditional methods.
+- An **interactive timeline** displaying my key research contributions over time.
+
+This website is built using **GitHub Pages** with **Jekyll** and features custom visualizations to present my work on **reduced-order modeling**, **data-driven approaches**, and **machine learning** applications in **fluid dynamics**.
+
