@@ -1,13 +1,5 @@
 # Mourad Oulghelou - Personal Website
 
-## About Me
-
-I am **Dr. Mourad Oulghelou**, a postdoctoral researcher at **Sorbonne University**, where I work at the intersection of **fluid mechanics**, **data-driven modeling**, and **machine learning**. My research focuses on developing **reduced-order models (ROMs)** and leveraging **machine learning** techniques to improve traditional fluid dynamics simulations, specifically for **turbulence modeling**.
-
-I specialize in the creation and application of **manifold-based interpolation techniques**, from **projection-based ROMs** to **data-driven model reduction approaches**. I have developed innovative methods, including the **GILD (Geometric Interpolation of Latent Dynamics)** approach, and I am currently focusing on improving **Reynolds-Averaged Navier-Stokes (RANS)** simulations using machine learning to create hybrid models that improve turbulence closure predictions.
-
----
-
 ## Research Timeline and Key Contributions
 
 My academic career has evolved through various phases, with each step contributing to advancements in **reduced-order modeling** and **data-driven methods** for **fluid mechanics**. Below is a timeline of my major research contributions:
